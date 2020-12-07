@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:type="linear"
+        android:color="#9C2C8D78"
+        android:angle="270"
+        />
+</shape>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_list_burung"
+        android:title="Barang"
+        android:icon="@drawable/ic_menu_barang"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_add_burung"
+        android:title="Add Barang"
+        android:icon="@drawable/ic_add_circle"
+        app:showAsAction="never"/>
+
+    <!--    <item-->
+    <!--        android:id="@+id/menu_about"-->
+    <!--        android:title="About"-->
+    <!--        android:icon="@drawable/ic_info_outline_black_24dp"-->
+    <!--        app:showAsAction="never"/>-->
+
+
+</menu>

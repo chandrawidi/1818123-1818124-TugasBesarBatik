@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".CreateActivity">
+
+    <TextView
+        android:id="@+id/judul_halaman_tambah_burung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Barang" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/judul_halaman_tambah_burung"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/create_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Nama Batik" />
+
+            <EditText
+                android:id="@+id/create_latin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Asal " />
+
+            <EditText
+                android:id="@+id/create_makanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jenis" />
+
+            <EditText
+                android:id="@+id/create_habitat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Harga" />
+
+            <EditText
+                android:id="@+id/create_ciri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Keterangan"
+                android:inputType="textMultiLine" />
+
+
+            <Button
+                android:id="@+id/btn_tambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TAMBAH DATA BARANG" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Data Barang" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/judul"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/update_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Nama Batik" />
+
+            <EditText
+                android:id="@+id/update_latin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Asal" />
+
+            <EditText
+                android:id="@+id/update_makanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jenis"/>
+
+            <EditText
+                android:id="@+id/update_habitat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Harga" />
+
+            <EditText
+                android:id="@+id/update_ciri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:hint="Keterangan" />
+
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="200dp"-->
+            <!--                    android:layout_height="200dp"-->
+            <!--                    android:id="@+id/tampil"/>-->
+
+            <!--                <Button-->
+            <!--                    android:id="@+id/up_gambar"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="upload_image" />-->
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_marginTop="100dp"
+                android:text="UPDATE DATA Barang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
